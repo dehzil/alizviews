@@ -1,10 +1,4 @@
-$border-grey: #dddfe2;
-$dark-blue: #13252f;
-$light-blue: #00c2ff;
-$dark-grey: #808080;
-$light-grey: #cbcbcb;
-$dark-grey-text: #808080;
-$light-grey-text: #dddfe2;
+@import "~src/scss/_config";
 
 * {
   font-family: "Helvetica";
@@ -12,7 +6,7 @@ $light-grey-text: #dddfe2;
 
 .container {
   border: 1px solid $border-grey;
-  border-radius: 1px;
+  border-radius: 5px;
   width: 300px;
   height: 466px;
   margin: 0;
@@ -72,7 +66,7 @@ $light-grey-text: #dddfe2;
 
   .log-input {
     width: 180px;
-    height: 38px;
+    height: 35px;
     border: 1px solid $border-grey;
     border-radius: 4px;
     color: $light-grey;

@@ -1,2 +1,32 @@
+$provisional-bg: #016f96;
+
+$border-grey: #dddfe2;
 $dark-blue: #13252f;
 $light-blue: #00c2ff;
+$dark-grey: #808080;
+$light-grey: #cbcbcb;
+$dark-grey-text: #808080;
+$light-grey-text: #dddfe2;
+
+// Media Query Mixin
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
