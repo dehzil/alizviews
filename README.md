@@ -28,6 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # alizviews
 
-## So far this is how it looks like
+<!-- ## So far this is how it looks like
 
-<img src="./img/Screen Shot 2018-08-17 at 6.24.29 PM.png" alt="Without logos" />
+<img src="./img/Screen Shot 2018-08-17 at 6.24.29 PM.png" alt="Without logos" /> -->

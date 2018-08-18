@@ -6,12 +6,11 @@
 
 .container {
   border: 1px solid $border-grey;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 300px;
   height: 466px;
   margin: 0;
   align-items: center;
-  // padding: 19px 60px 13px 60px;
 }
 
 .content {
@@ -20,7 +19,7 @@
   text-align: center;
 
   .social {
-    margin: 6px auto;
+    margin: 6px auto 0 auto;
     background: $dark-blue;
     width: 180px;
     height: 33px;
@@ -30,7 +29,7 @@
   }
 
   .hr-text {
-    margin: 0 auto 5px auto;
+    margin: 5px auto;
     line-height: 1em;
     position: relative;
     outline: 0;
@@ -56,17 +55,16 @@
 
       padding: 0 0.5em;
       line-height: 1em;
-      // this is really the only tricky part, you need to specify the background color of the container element...
+
       color: #818078;
       background-color: #fcfcfa;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       font-size: 0.75rem;
     }
   }
 
   .log-input {
     width: 180px;
-    height: 35px;
+    height: 33px;
     border: 1px solid $border-grey;
     border-radius: 4px;
     color: $light-grey;
@@ -80,6 +78,7 @@
     padding: 10px;
     border-radius: 4px;
     color: #fff;
+    margin-bottom: 7px;
   }
 
   input::placeholder {
@@ -90,13 +89,17 @@
   .gray-text {
     color: $light-grey-text;
     font-size: 0.75em;
+    text-decoration: none;
   }
   .dark-gray-text {
     color: $dark-grey-text;
     font-size: 0.75em;
+    margin-top: 25px;
   }
 
   .blue-text {
+    margin: 0;
     color: $light-blue;
+    text-decoration: none;
   }
 }
